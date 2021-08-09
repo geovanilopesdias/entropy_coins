@@ -12,3 +12,7 @@ With only three coins, every year I show to students a table with all the draw p
 
 ## A beginner study
 Certainly an experienced developer, specially on Python, may think the code has a bad performance, or low readability or has some unpythonic expressions. However, I choose to let this code untouched even I learn any improvement for the code, so I or anyone can analyze it and discuss it.
+
+## Updates
+At August 8th, I've upload a newer version, using methods, list comprehension and the build-in sum(iterable). I do so, because I invert the approach: instead of appending all flips of a single coin into an array, I append a set of flips of all coins into one array. So, I build an analysis to sum all the random result as 0 or 1 (and not "$$" and "50" anymore): if the sum has the same value of the array length, or it equals zero, than on the coins fell on all equally.
+Due to list comprehension and the build-in use, I could save respectively 8 and 18 lines of code, but didn't test the speed yet.
