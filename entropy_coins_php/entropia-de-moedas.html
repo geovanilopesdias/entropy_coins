@@ -1,0 +1,36 @@
+<DOCTYPE! html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="entropia-estilo.css">
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Entropia de Moedas</h1>
+			<h2>Por Geovani L. Dias</h2>
+			<p>Este pequeno script lança moedas um certo número de vezes, para ilustrar a improbabilidade de ocorrência de condições "ordenadas",
+			como moléculas de oxigênio e nitrogênio agrupadas num canto da sala, ou duas substâncias diluídas se separarem espontaneamente.</p>
+			<h3>Configura abaixo os valores de lançamento:</h3>
+		</header>
+		<div>
+			<form action="entropia-motor.php" method="post">
+				<fieldset>
+					<label for="nMoedas">Insira o número de moedas a serem lançadas (2 a 100):</label>
+					<input name="nMoedas" type="numeric" min="2" max="100" placeholder="Exemplo: 10" required></br>
+				
+					<label for="nLancamentos">Insira quantas vezes elas devem ser lançadas (10 a 1000):</label>
+					<input name="nLancamentos" type="numeric" min="10" max="1000" placeholder="Exemplo: 50" required></br>
+					
+					<input type="submit" value="Lançar!">
+				</fieldset>
+			</form>
+		</div>
+		<footer>
+			<h1>Gheowin: Educational Apps</h1>
+			<p>By Geovani L. Dias</p>
+		</footer>
+	</body>
+</html>

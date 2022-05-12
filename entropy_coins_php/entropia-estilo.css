@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+/* General */
+body {background-color: hsl(0 100% 100%); }
+h1{font-family:'Varela Round', sans-serif; font-size: 30pt; text-align: center; margin-bottom: 0px;}
+h2{font-family:'Varela Round', sans-serif; font-size: 14pt; color: #00004d; text-align: center; margin-top: 0px; margin-left: 200px;}
+h3{font-family:'Varela Round', sans-serif; font-size: 25pt; text-align: center;}
+p{font-family:'Varela Round', sans-serif; font-size: 16pt; text-align: justify;}
+label{font-size: 15pt;}
+
+/* Form */
+
+
+/* Table */
+table {margin: auto; border: 3px solid #00004d; border-spacing: 1px;}
+table caption {font-family:'Varela Round', sans-serif; font-size: 14pt;}
+table td {font-family:'Varela Round', sans-serif; font-size: 12pt; border: 1px solid #0000ff; text-align: left; vertical-align: middle;}
+table td img {height: 80px; width: 80px;}
+
+/* Footer*/
+footer {text-align: center; border-top: 3px double hsl(208 80% 50%); display: block; padding: 10px; margin-top: 5px; margin-left: auto; margin-right: auto;}
+footer h1{font-family: 'Fredoka One', sans-serif; color: hsl(208 86% 31%); font-size: 15pt; margin-bottom: 0px;}
+footer p{font-family: 'Covered By Your Grace', sans-serif; font-size: 20pt; text-align: center; margin-top: 0px;}
