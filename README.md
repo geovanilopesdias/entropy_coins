@@ -1,8 +1,8 @@
 # Entropy Coins
-**Abstract**: A tiny script in Python that "flips" a certain number of coins a certain numbers of times, outputting how many times they're fall on all equal.
+**Abstract**: A script that "flips" a certain number of coins a certain numbers of times, outputting how many times they're fall on all equal.
 
 ## Background
-It was my first personal code, i.e., a personal problem I challenge myself to solve by coding.
+It was my first personal code, i.e., a personal problem I challenge myself to solve by coding. Firstly writen in Python, I already translate it to Java and PHP.
 
 As a physics teacher, I've been propose to my high school students, for some time now, the well known coin-flipping analogy to learn associated entropy concepts, mainly macrostate and microstate. 
 
